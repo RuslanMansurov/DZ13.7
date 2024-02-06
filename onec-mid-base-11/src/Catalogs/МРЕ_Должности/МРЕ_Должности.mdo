@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbd9c0ce-3efa-4721-ae39-83c908e1ef81">
+  <producedTypes>
+    <objectType typeId="7fb2b6b9-eef3-4cdc-90ea-bb2316a2f95a" valueTypeId="a0266342-f0a2-48b0-93ca-68478548fd18"/>
+    <refType typeId="5a265601-4b6a-497b-9ee3-90452e5ec5cc" valueTypeId="d05ce644-9af5-4461-97a8-0afd3602bb1c"/>
+    <selectionType typeId="4f010390-d802-452c-afb2-f8e515421501" valueTypeId="1e672d89-eb50-4348-81da-6c48742e60da"/>
+    <listType typeId="034a875c-d946-4b78-b9b2-3b7f5e636cd5" valueTypeId="d2500ba0-2fda-4b18-ae7c-4bedc7a18b95"/>
+    <managerType typeId="a56b5d6b-a061-46ef-83bc-ddfe69307a1c" valueTypeId="ea2d5099-3a01-4b91-9dcc-5ee1b472c4e2"/>
+  </producedTypes>
+  <name>МРЕ_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МРЕ_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.МРЕ_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МРЕ_Должности.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.МРЕ_Должности.Form.ФормаСписка</defaultListForm>
+  <forms uuid="d8c4ddbb-455c-413c-8b5b-7232a668325e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="88eef072-d174-4481-a611-499872a59598">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
